@@ -7,7 +7,10 @@
 \usepackage{xcolor}
 \geometry{letterpaper, margin=0.75in} % Set paper size and margins
 \usepackage{titlesec} % For section title formatting
+
 \usepackage{enumitem} % For itemized list formatting
+\setlist[itemize]{noitemsep, topsep=0pt}
+
 \usepackage{hyperref} % For hyperlinks
 
 \usepackage{fontawesome}
@@ -44,11 +47,14 @@
 \section*{EDUCATION}
 \noindent
 \textbf{The University of Chicago} \hfill Chicago, IL \\ 
-\textit{Bachelor of Arts in Economics and Mathematics} \hfill \textit{Expected, June 2027} \\
+\textit{Bachelor of Arts in Economics and Mathematics} \hfill \textit{Expected, June 2027}
 % \textbf{Relevent Coursework}
 % \noindent
-\textbf{GPA:} 3.940 \textbf{Coursework:} Honors Calculus, Multiscale Modeling of Biological Systems, Introduction to Data Science
-% \textbf{Others:} Oeconomica, International Collegiate Programming Contest (ICPC)
+\begin{itemize}
+    \item\textbf{GPA:} 3.940 
+    \item\textbf{Coursework:} Honors Calculus, Systems Programming, Multiscale Modeling of Biological Systems, Introduction to Data Science, Approaches to Digital Humanities Using Python
+    % \item\textbf{Others:} Oeconomica, International Collegiate Programming Contest (ICPC)
+\end{itemize}
 
 % Experience Section
 \section*{RESEARCH}
@@ -57,11 +63,11 @@
 \hfill February 2023 -- March 2023 \\
 \textit{Research Assistant} 
 \begin{itemize}
-    \item Utilized Python to scrape blogs posted on Weibo from 2018 to 2022, focusing on topics related to the US, to gather data for sentiment analysis.
+    \item Utilized Python to scrape blogs posted on Weibo from 2018 to 2022, focusing on topics related to the US, collecting data for sentiment analysis.
 \end{itemize}
 
 \noindent
-\textbf{Gender Difference in Psychology}
+\textbf{Gender Differences in Psychology}
 \emph{\href{https://drive.google.com/file/d/19cO9fOI9KPIAT2OV0WPENLVXvrM-A7fZ/view?usp=sharing}{\color{blue} pdf}} 
 \hfill May 2022 -- June 2022 \\
 \textit{Researcher} 
@@ -100,7 +106,7 @@
 \end{itemize}
 
 \noindent
-\textbf{Online APA7 In-Text Citation Checker} 
+\textbf{Online APA7 In-Text Citation Checker} \emph{\href{https://adenchen27.github.io/citation_checker/main.html}{\color{blue} Webpage}}
 \emph{\href{https://github.com/AdenChen27/AdenChen27.github.io/tree/main/citation_checker}{\color{blue} GitHub}}
 \hfill June 2022 -- August 2022 \\
 \textit{Developer} 
@@ -124,9 +130,9 @@
 \noindent
 \textbf{Recognized Student Organization: Oeconomica} 
 \hfill October 2023 -- Present \\
-\textit{Member} \hfill \textit{Chicago, IL}
+\textit{Member in the Econometrics Cohort} \hfill \textit{Chicago, IL}
 \begin{itemize}
-    \item Attend weekly lectures and faculty talks, learning causal inference, linear regression, R, \LaTeX, and acquiring insights into the latest faculty research.
+    \item Attend weekly lectures and faculty talks, learning about causal inference, linear regression, R, \LaTeX, and acquiring insights into the latest faculty research.
 \end{itemize}
 
 \noindent
@@ -143,9 +149,9 @@
 \hfill January 2023 -- Present \\
 \textit{Organizer \& Creator}
 \begin{itemize}
-    \item Coordinated team of 15+ writers, researchers, and editors in the creation of content for a popular science blog.
-    \item Wrote several articles on behavioral economics, touching on topics including expected utility theory and prospect theory, loss aversion and risk aversion, status quo bias, economic games, social preferences and altruism, and competitiveness. 
-    \item Created animations (\emph{\href{https://github.com/AdenChen27/Econic}{\color{blue} GitHub}}) using Python and Manim.
+    \item Coordinated team of 10+ writers, researchers, and editors in the creation of content for a popular science blog.
+    \item Wrote several articles on behavioral economics, touching on topics including expected utility theory and prospect theory, risk aversion and loss aversion, status quo bias, economic games, social preferences and altruism, competitiveness and the gender equality paradox, framing effect, and scarcity theory. 
+    \item Created mathematical animations for economics concepts using Python and \href{https://www.manim.community/}{Manim} (\emph{\href{https://github.com/AdenChen27/Econic}{\color{blue} GitHub}}).
 \end{itemize}
 
 %\noindent
@@ -180,6 +186,7 @@
 % \textbf{Languages:} Mandarin, English \\ 
 % \textbf{Computing:} Proficient in Python and \CPP\@. Familiar with R, JavaScript, C, HTML/CSS, and \LaTeX.
 \textbf{Programming Languages:} Python, C/\CPP\@, R, JavaScript, HTML/CSS. \\
-\textbf{Tools:} Git, Jupyter, \LaTeX, Pandas, Django
+\textbf{Tools:} Git, Jupyter, \LaTeX, Pandas, Django, Manim
+
 
 \end{document}
