@@ -1,4 +1,3 @@
-% Document class and font size
 \documentclass[letterpaper, 9pt]{extarticle}
 
 % Packages
@@ -6,21 +5,33 @@
 \usepackage{geometry} % For page margins
 \usepackage{xcolor}
 \geometry{letterpaper, margin=0.75in} % Set paper size and margins
-\usepackage{titlesec} % For section title formatting
 
+\usepackage{titlesec} % For section title formatting
 \usepackage{enumitem} % For itemized list formatting
 \setlist[itemize]{noitemsep, topsep=0pt}
 
 \usepackage{hyperref} % For hyperlinks
-
-\usepackage{fontawesome}
+\usepackage{fontawesome5}
 
 
 
 % Formatting
+\setlength\parindent{0pt} % \noindent everything
 \setlist{noitemsep} % Removes item separation
 \titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
 \titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% \newcommand{\citecolor}{blue}
+% \hypersetup{
+%   bookmarksnumbered=true,
+%   colorlinks=true,
+%   linkcolor=\citecolor,
+%   citecolor=\citecolor,
+%   filecolor=\citecolor,
+%   menucolor=\citecolor,
+%   urlcolor=\citecolor,
+%   pdfnewwindow=true,
+% }
 
 % Typeset "C++"
 \newcommand{\CPP}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
@@ -35,24 +46,22 @@
     \textbf{\Large ADEN CHEN} \\
     \href{tel:(872) 899-4015}{\faMobile\space (872) 899-4015}
     $|$
-    \href{mailto:adenc@uchicago.edu}{\faAt\space adenc@uchicago.edu}
+    \href{mailto:adenc@uchicago.edu}{\faEnvelope[regular]\ adenc@uchicago.edu}
     $|$
     \hspace{.5pt}\href{https://adenchen27.github.io/}{\faGlobe\space Portfolio}
     % \href{https://www.linkedin.com/in/aden-chen-45a924221/}{\faLinkedinSquare \space LinkedIn}
     $|$
-    \href{https://github.com/AdenChen27}{\faGithub\space Github}
+    \href{https://github.com/AdenChen27}{\faGithub\space GitHub}
     % $|$
 \end{center}
 
-% Education Section
+% Education
 \section*{EDUCATION}
-\noindent
 \textbf{The University of Chicago} \hfill Expected, June 2027 \\ 
 \textit{Bachelor of Arts in Economics and Mathematics} \hfill \textit{Chicago, IL}
-% \textbf{Relevent Coursework}
-% \noindent
 \begin{itemize}
     \item\textbf{GPA:} 3.950 
+    % \item\textbf{Relevant Coursework:} Honors Analysis, Systems Programming, Honors Elements of Economic Analysis, Statistical Theory and Methods Ia, Honors Econometrics
     % \item\textbf{Relevant Coursework:} Honors Calculus II, Systems Programming II, Multiscale Modeling of Biological Systems II, Introduction to Data Science, Approaches to Digital Humanities Using Python
     % \item\textbf{Others:} Oeconomica, International Collegiate Programming Contest (ICPC)
 \end{itemize}
@@ -60,17 +69,16 @@
 % Experience Section
 \section*{RESEARCH}
 
-\noindent
-\textbf{Becker Friedman Institute Summer Internship Program: MiiE Lab} 
+\textbf{Becker Friedman Institute Summer Internship Program; MiiE Lab}
 \hfill June 2024 -- August 2024 \\
 \textit{Research Assistant} 
 \begin{itemize}
   \item Supported Professor Adukia in her work to analyze images and texts in textbooks, children’s books, and yearbooks using computational methods.
-  \item Crawled yearbook data from dynamic websites, and ran computer vision pipelines to estimate gender and race proportions in schools.
-Ran various natural language processing algorithms on news articles, including emotion analysis, VAD analysis, log odds ratio with Dirichlet prior, name entity recognition, power and agency analysis, topic modeling, among others.
+  \item Crawled yearbook data from dynamic websites, and ran computer vision pipelines to estimate demographic compositions.
+  \item Assisted in the development of a version of the \href{https://implicit.harvard.edu/implicit/takeatest.html}{Implicit Association Test} using \href{https://osdoc.cogsci.nl/}{OpenSesame}. 
+  \item Ran various natural language processing algorithms on news articles, including \href{https://github.com/cjhutto/vaderSentiment}{VADER sentiment analysis}, \href{https://link.springer.com/article/10.3758/s13428-012-0314-x}{VAD analysis}, \href{https://bookdown.org/Maxine/tidy-text-mining/weighted-log-odds-ratio.html}{log odds ratio with Dirichlet prior}, \href{https://aclanthology.org/D17-1247/}{power and agency analysis}, topic modeling, word embedding, and zero shot classification.
 \end{itemize}
 
-% \noindent
 % \textbf{UChicago Mathematics Research Experience for Undergraduates (REU)} 
 % \hfill June 2024 -- September 2024 \\
 % \textit{Apprentice Researcher} 
@@ -80,7 +88,6 @@ Ran various natural language processing algorithms on news articles, including e
 % \end{itemize}
 
 
-\noindent
 \textbf{Research Assistant under Professor Shaoda Wang and Professor Daniel Li Chen} 
 \hfill April 2024 -- June 2024 \\
 \textit{Research Assistant} 
@@ -89,7 +96,6 @@ Ran various natural language processing algorithms on news articles, including e
 \end{itemize}
 
 
-\noindent
 \textbf{Nationalism Sentiment during Covid-19 in China} 
 \hfill February 2023 -- March 2023 \\
 \textit{Research Assistant} 
@@ -97,17 +103,15 @@ Ran various natural language processing algorithms on news articles, including e
     \item Utilized Python to scrape blogs posted on Weibo from 2018 to 2022, focusing on topics related to the US, collecting data for sentiment analysis.
 \end{itemize}
 
-\noindent
-\textbf{Gender Differences in Psychology}
-[\href{https://drive.google.com/file/d/19cO9fOI9KPIAT2OV0WPENLVXvrM-A7fZ/view?usp=sharing}{\color{blue} \underline{PDF}}]
-\hfill May 2022 -- June 2022 \\
-\textit{Researcher} 
-\begin{itemize}
-    \item Investigated the gender differences in personality and career preferences. 
-    \item Paper discussing both biological and social factors and the gender equality paradox won commendation in the John Locke Institute Global Essay Competition.
-\end{itemize}
+% \textbf{Gender Differences in Psychology}
+% [\href{https://drive.google.com/file/d/19cO9fOI9KPIAT2OV0WPENLVXvrM-A7fZ/view?usp=sharing}{PDF}]
+% \hfill May 2022 -- June 2022 \\
+% \textit{Researcher} 
+% \begin{itemize}
+%     \item Investigated the gender differences in personality and career preferences. 
+%     \item Paper discussing both biological and social factors and the gender equality paradox won commendation in the John Locke Institute Global Essay Competition.
+% \end{itemize}
 
-% \noindent
 % \textbf{How Perceptions of Intelligence Influence Education} 
 % [\href{https://drive.google.com/file/d/1lgQKk7_geC_NsAG5uHnPfWY3wKy38_-o/view?usp=sharing}{\color{blue} \underline{PDF}}]
 % \hfill February 2022 -- March 2022 \\
@@ -116,7 +120,6 @@ Ran various natural language processing algorithms on news articles, including e
 %     \item Wrote a research paper on the interplay between students' implicit theory of intelligence and stereotype threats, classroom interventions that promote a harmful fixed mindset, and possible interventions to promote a growth mindset. 
 % \end{itemize}
 
-% \noindent
 % \textbf{Short-Circuits in the Mind} \hfill  \\
 % \textit{Researcher} \hfill May 2021 – June 2021
 % \begin{itemize}
@@ -128,7 +131,6 @@ Ran various natural language processing algorithms on news articles, including e
 \section*{LEADERSHIP \& ACTIVITIES}
 
 
-\noindent
 \textbf{Recognized Student Organization: Oeconomica} 
 \hfill October 2023 -- Present \\
 \textit{Member in the Econometrics Cohort} \hfill \textit{Chicago, IL}
@@ -136,7 +138,6 @@ Ran various natural language processing algorithms on news articles, including e
     \item Attend weekly lectures and faculty talks, learning about causal inference, linear regression, R, instrumental variable, \LaTeX, and acquiring insights into the latest faculty research.
 \end{itemize}
 
-\noindent
 \textbf{International Collegiate Programming Contest (ICPC)} 
 \hfill October 2023 -- Present \\
 \textit{Member} \hfill \textit{Chicago, IL}
@@ -145,20 +146,18 @@ Ran various natural language processing algorithms on news articles, including e
 \end{itemize}
 
 
-\noindent
 \textbf{Popular Science Articles} 
 \hfill January 2023 -- Present \\
 \textit{Organizer \& Creator}
 \begin{itemize}
     % \item Coordinated team of 15+ writers, researchers, and editors in the creation of content for a popular science blog.
     \item Wrote several articles on behavioral economics, touching on topics including expected utility theory and prospect theory, risk aversion and loss aversion, status quo bias, economic games, social preferences and altruism, competitiveness and the gender equality paradox, framing effect, and scarcity theory. 
-    \item Created mathematical animations for economics concepts using Python and \href{https://www.manim.community/}{Manim}. [\href{https://github.com/AdenChen27/Econic}{\color{blue} \underline{GitHub}}].
+    \item Created mathematical animations for economics concepts using Python and \href{https://www.manim.community/}{Manim}. [\href{https://github.com/AdenChen27/Econic}{GitHub}].
 \end{itemize}
 
 % Programming Projects
 % \section*{PROGRAMMING PROJECTS}
 
-% \noindent
 % \textbf{ESL Learning Website} 
 % [\href{https://github.com/AdenChen27/Project_0}{\color{blue} \underline{GitHub}}]
 % \hfill September 2021 -- June 2023  \\
@@ -170,14 +169,13 @@ Ran various natural language processing algorithms on news articles, including e
 
 \noindent
 \textbf{Online APA7 In-Text Citation Checker} 
-[\href{https://github.com/AdenChen27/AdenChen27.github.io/tree/main/citation_checker}{\color{blue} \underline{GitHub}}]
+[\href{https://github.com/AdenChen27/AdenChen27.github.io/tree/main/citation_checker}{GitHub}]
 \hfill June 2022 -- August 2022 \\
 \textit{Developer} 
 \begin{itemize}
-    \item Designed and developed a \href{https://adenchen27.github.io/citation_checker/main.html}{\color{blue} \underline{webpage}} utilizing JavaScript and RegEx to check the format of APA7-styled in-text citations.
+  \item Designed and developed a \href{https://adenchen27.github.io/citation_checker/main.html}{webpage} utilizing JavaScript and RegEx to check the format of APA7-styled in-text citations.
 \end{itemize}
 
-% \noindent
 % \textbf{2048 Solver} 
 % [\href{https://github.com/AdenChen27/2048_solver}{\color{blue} \underline{GitHub}}]
 % \hfill January 2021 \\
@@ -187,7 +185,6 @@ Ran various natural language processing algorithms on news articles, including e
 % \end{itemize}
 
 
-%\noindent
 %\textbf{ESL Tutoring Team} 
 %\hfill  \\
 %\textit{Organizer \& Tutor} \hfill January 2023 -- August 2023
@@ -195,7 +192,6 @@ Ran various natural language processing algorithms on news articles, including e
 %    \item Led team of 3 tutoring middle and high school students. Designed and delivered a total of 96 ESL classes to middle and high school students. Donated income to Project Hope.
 %\end{itemize}
 
-% \noindent
 % \textbf{School Olympiad Team in Informatics} 
 % \hfill  \\
 % \textit{Team Member} \hfill September 2019--October 2022
@@ -203,7 +199,6 @@ Ran various natural language processing algorithms on news articles, including e
 %    \item Won multiple individual top prizes in China's National Olympiad in Informatics in Province (NOIP) and China Computer Foundation’s Certified Senior non-Pro contests, senior division (CSP-S).
 % \end{itemize}
 
-% \noindent
 % \textbf{China Thinks Big Innovation and Research Competition} 
 % \hfill  \\
 % \textit{Team Member} \hfill October 2021 -- March 2022
@@ -226,7 +221,9 @@ Ran various natural language processing algorithms on news articles, including e
 
 \section*{HONORS AND AWARDS}
 Uncommon Hacks 2024 --- Winner in the Web Development track. \\ 
-Rise Global Challenge --- Finalist. 
+Rise Global Challenge 2023 --- Finalist.  \\ 
+John Locke Institute Global Essay Competition 2022 --- Commendation.  \\ 
+National Olympiad in Informatics in Province, Senior Division 2021 --- First Prize. 
 
 
 
