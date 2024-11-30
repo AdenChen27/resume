@@ -10,7 +10,7 @@
 \usepackage{enumitem} % For itemized list formatting
 \setlist[itemize]{noitemsep, topsep=0pt}
 
-\usepackage{hyperref} % For hyperlinks
+\usepackage[colorlinks=true]{hyperref} % For hyperlinks
 \usepackage{fontawesome5}
 
 
@@ -35,6 +35,7 @@
 
 % Typeset "C++"
 \newcommand{\CPP}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
+
 
 \begin{document}
 
@@ -62,13 +63,21 @@
 \begin{itemize}
     \item \textbf{GPA}: 3.950 
     \item \textbf{Dean's List}, 2023--2024.
-    % \item\textbf{Relevant Coursework:} Honors Analysis, Systems Programming, Honors Elements of Economic Analysis, Statistical Theory and Methods Ia, Honors Econometrics
+    % \item\textbf{Relevant Coursework:} Analysis in \(\RR^n\) (A), Systems Programming, Honors Elements of Economic Analysis, Statistical Theory and Methods Ia, Honors Econometrics
     % \item\textbf{Relevant Coursework:} Honors Calculus II, Systems Programming II, Multiscale Modeling of Biological Systems II, Introduction to Data Science, Approaches to Digital Humanities Using Python
     % \item\textbf{Others:} Oeconomica, International Collegiate Programming Contest (ICPC)
 \end{itemize}
 
 % Experience Section
 \section*{RESEARCH}
+\textbf{Research Assistant under Professor Shaoda Wang and Professor Daniel Li Chen} 
+\hfill April 2024 -- \\
+\textit{Research Assistant} 
+\begin{itemize}
+  \item Developed pipeline for crawling legal documents in court cases involving expert witness. Downloaded over 3M relevant documents and metadata for over 1.5M cases. 
+  \item Developing pipeline for extracting key variables in court cases using various NLP techniques. 
+\end{itemize}
+
 
 \textbf{Becker Friedman Institute Summer Internship Program; MiiE Lab}
 \hfill June 2024 -- August 2024 \\
@@ -76,8 +85,8 @@
 \begin{itemize}
   \item Supported Professor Adukia in her work to analyze images and texts in textbooks, children’s books, and yearbooks using computational methods.
   \item Crawled yearbook data from dynamic websites, and ran computer vision pipelines to estimate demographic compositions.
-  \item Assisted in the development of a version of the \href{https://implicit.harvard.edu/implicit/takeatest.html}{Implicit Association Test} using \href{https://osdoc.cogsci.nl/}{OpenSesame}. 
-  \item Ran various natural language processing algorithms on news articles, including \href{https://github.com/cjhutto/vaderSentiment}{VADER sentiment analysis}, \href{https://link.springer.com/article/10.3758/s13428-012-0314-x}{VAD analysis}, \href{https://bookdown.org/Maxine/tidy-text-mining/weighted-log-odds-ratio.html}{log odds ratio with Dirichlet prior}, \href{https://aclanthology.org/D17-1247/}{power and agency analysis}, topic modeling, word embedding, and zero shot classification.
+  \item Assisted in the development of a version of the Implicit Association Test using OpenSesame. 
+  \item Ran various natural language processing algorithms on news articles, including VADER sentiment analysis, VAD analysis, log odds ratio with Dirichlet prior, \href{https://aclanthology.org/D17-1247/}{power and agency analysis}, topic modeling, word embedding, and zero shot classification.
 \end{itemize}
 
 \textbf{UChicago Mathematics Research Experience for Undergraduates (REU)} 
@@ -85,25 +94,15 @@
 \textit{Apprentice Researcher} 
 \begin{itemize}
   % \item Attend lectures covering a variety of topics in analysis and probability, such as random walks, the heat equation, and closed geodesics. 
-  \item Self studied operator theory. 
-    Authored an \href{https://github.com/AdenChen27/REU2024/blob/main/main.pdf}{expository paper} on spectral theory and the min-max theorem, which gives a variational characterization of the discrete eigenvalues of a self-adjoint operator below the essential spectrum. 
+  \item Studied operator theory and authored an \href{https://math.uchicago.edu/~may/REU2024/REUPapers/Chen,Aden.pdf}{expository paper} on spectral theory and the min-max theorem, which gives a variational characterization of the discrete eigenvalues of a self-adjoint operator below the essential spectrum. 
 \end{itemize}
 
-
-\textbf{Research Assistant under Professor Shaoda Wang and Professor Daniel Li Chen} 
-\hfill April 2024 -- June 2024 \\
+\textbf{Nationalism Sentiment during Covid-19 in China} 
+\hfill February 2023 -- March 2023 \\
 \textit{Research Assistant} 
 \begin{itemize}
-  \item Developed pipeline for crawling legal documents in court cases involving expert witness. Downloaded over 3M relevant documents and metadata for over 1.5M cases. 
+    \item Utilized Python to scrape blogs posted on Weibo from 2018 to 2022, focusing on topics related to the US, collecting data for sentiment analysis.
 \end{itemize}
-
-
-% \textbf{Nationalism Sentiment during Covid-19 in China} 
-% \hfill February 2023 -- March 2023 \\
-% \textit{Research Assistant} 
-% \begin{itemize}
-%     \item Utilized Python to scrape blogs posted on Weibo from 2018 to 2022, focusing on topics related to the US, collecting data for sentiment analysis.
-% \end{itemize}
 
 % \textbf{Gender Differences in Psychology}
 % [\href{https://drive.google.com/file/d/19cO9fOI9KPIAT2OV0WPENLVXvrM-A7fZ/view?usp=sharing}{PDF}]
@@ -137,8 +136,8 @@
 \hfill October 2023 -- Present \\
 \textit{Coleader of the Macro and Financial Economics Cohort 2024--2025 \\ Member of the Econometrics Cohort 2023--2024} \hfill \textit{Chicago, IL}
 \begin{itemize}
-    \item Attend weekly lectures and faculty talks, learning about causal inference, linear regression, R, instrumental variable, \LaTeX, and acquiring insights into the latest faculty research.
     \item Gave weekly lectures on asset pricing models and Python for economics research. 
+    \item Attend weekly lectures and faculty talks, learning about causal inference, linear regression, R, instrumental variable, \LaTeX, and acquiring insights into the latest faculty research.
 \end{itemize}
 
 % \textbf{International Collegiate Programming Contest (ICPC)} 
@@ -222,11 +221,9 @@
     \LaTeX, Pandas, NumPy, Beautiful Soup, Selenium, SciPy, Django, Manim, Jekyll, VMD \\
 \textbf{Language:} Native in Mandarin Chinese
 
-\section*{HONORS AND AWARDS}
-Uncommon Hacks 2024 --- Winner in the Web Development track. \\ 
-Rise Global Challenge 2023 --- Finalist.  \\ 
-John Locke Institute Global Essay Competition 2022 --- Commendation.  \\ 
-National Olympiad in Informatics in Province, Senior Division 2021 --- First Prize. 
+
+% \section*{HONORS AND AWARDS}
+% Uncommon Hacks 2024 --- Winner in the Web Development track. \\ 
 
 
 
