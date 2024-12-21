@@ -86,7 +86,7 @@ design:
   page_size: letterpaper
   color: '#004f90'
   disable_external_link_icons: true
-  disable_page_numbering: false
+  disable_page_numbering: true
   # page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
   page_numbering_style: PAGE_NUMBER
   disable_last_updated_date: false
