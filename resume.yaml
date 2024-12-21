@@ -1,0 +1,122 @@
+cv:
+  name: Aden Chen
+  # location: Your Location
+  email: adenc@uchicago.edu
+  # phone: tel:+1-872-899-4015
+  website: https://adenchen27.github.io/
+  social_networks:
+    - network: LinkedIn
+      username: aden-chen-45a924221
+    - network: GitHub
+      username: AdenChen27
+  sections:
+    education:
+      - institution: University of Chicago
+        area: Mathematics and Economics
+        degree: BA
+        start_date: 2023-09
+        end_date: 2027-05
+        highlights:
+          - 'GPA: 3.95/4.0'
+          - "Dean's List: 2023--2024"
+          - 'Coursework: Honors Elements of Economic Analysis, Statistical Theory and Methods, Accelerated Analysis in $$\mathbb{R}^n$$, Systems Programming, Abstract Linear Algebra, Introduction to Mathematical Probability'
+    Research:
+      - company: Becker Friedman Institute
+        position: Research Assistant for Professor Shaoda Wang
+        # location: Chicago, IL
+        start_date: 2024-04
+        # end_date: 
+        highlights:
+          - Developed pipeline for crawling legal documents in court cases involving expert witness. 
+            Downloaded over 3M relevant documents and metadata for over 1.5M cases.
+          - Developing pipeline for extracting key variables in court cases using various NLP techniques.
+      - company: Becker Friedman Institute; Harris School of Public Policy
+        position: Research Assistant for the MiiE Lab
+        # location: Chicago, IL
+        start_date: 2024-06
+        end_date: 2024-09
+        highlights:
+          - Supported Professor Adukia in her work to analyze images and texts in textbooks, children’s books, and yearbooks using computational methods.
+          - Crawled public yearbook images and ran computer vision pipelines to estimate demographic compositions.
+          - Assisted in the development of a version of the Implicit Association Test using OpenSesame. 
+          - Ran various natural language processing algorithms on news articles, including VADER sentiment analysis, VAD analysis, log odds ratio with Dirichlet prior, power and agency analysis, topic modeling, word embedding, and zero shot classification.
+      - company: UChicago Mathematics Research Experience for Undergraduates (REU)
+        position: Apprentice Researcher
+        # location: Chicago, IL
+        start_date: 2024-06
+        end_date: 2024-08
+        highlights:
+          - Studied operator theory and authored an [expository paper](https://math.uchicago.edu/~may/REU2024/REUPapers/Chen,Aden.pdf) on spectral theory and the min-max theorem, which gives a variational characterization of the discrete eigenvalues of a self-adjoint operator below the essential spectrum. 
+    # publications:
+    #   - title: Spectral Theory and the Min-Max Theorem
+    #     authors:
+    #       - Aden Chen
+    #     # doi: 'https://math.uchicago.edu/~may/REU2024/REUPapers/Chen,Aden.pdf'
+    #     date: 2024-09
+    activities:
+      - name: Oeconomica (Recognized Student Organization)
+        # date: '[github.com/name/repo](https://github.com/rendercv/rendercv)'
+        start_date: 2023-09
+        highlights:
+          - Participated as a member in the Econometrics Cohort (2023-2024), and co-led the Asset Pricing Cohort (2024-2025).
+          - Designed and delivered a quarter long lecture series on an introduction to Python for economics research, covering Python basics, data manipulation and visualization, introduction to natural language processing, and web scraping.
+            Made Jupyter notebook worksheets for students to practice Python programming.
+          - Gave lectures on mathematical prerequisites for the cohort and a behavioral economics solution to the equity premium puzzle.
+      - name: Online APA In-Text Citation Checker
+        date: '[github repo](https://github.com/AdenChen27/APA7-in-text-citation-checker)'
+        highlights:
+          - Designed and developed a [webpage](https://adenchen27.github.io/citation_checker/main.html) utilizing JavaScript and RegEx to check the format of APA7-styled in-text citations.
+      - name: Grader for MATH152 - Calculus 2
+        start_date: 2024-09
+        end_date: 2024-12
+      - name: ESL Learning Website
+        date: '[github repo](https://github.com/AdenChen27/Project_0)'
+        highlights:
+          - Developed a Django-based website for interactive ESL learning.
+          - Recognized as a finalist in the Rise Global Challenge by Schmidt Futures and the Rhodes Trust.
+    skills:
+      - label: Languages
+        details: Python, C++/C, R, JavaScript, HTML/CSS
+      - label: Technologies
+        details: Git, NLTK, Jupyter, Midway, \LaTeX, Pandas, NumPy, Beautiful Soup, Selenium, SciPy, Django
+design:
+  theme: adenc
+  font: Latin Modern Serif
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: true
+  disable_page_numbering: false
+  # page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  page_numbering_style: PAGE_NUMBER
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  # header_font_size: 24 pt
+  header_font_size: 16 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: .7 in
+      right: .7 in
+    section_title:
+      top: 0.2 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+    highlights_area:
+      # top: 0.10 cm
+      # left: 0.4 cm
+      # vertical_between_bullet_points: 0.10 cm
+      top: 0 cm
+      left: 0 cm
+      vertical_between_bullet_points: 0 cm
+    header:
+      vertical_between_name_and_connections: 0.2 cm
+      bottom: 0.2 cm
+      horizontal_between_connections: 0.2 cm

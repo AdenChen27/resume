@@ -1,11 +1,4 @@
-.PHONY: clean, view
-
-
-resume: resume.tex
-	latexmk ./resume.tex -pdf -jobname=./aux/resume
-
-view: resume.pdf
+resume:
+	rendercv render resume.yaml -nomd -nohtml -nopng --use-local-latex-command "pdflatex"
+	cp rendercv_output/Aden_Chen_CV.pdf resume.pdf
 	open resume.pdf
-
-clean:
-	latexmk -c -output-directory=aux
