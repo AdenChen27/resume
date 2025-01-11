@@ -61,7 +61,7 @@ cv:
           - Participated as a member in the Econometrics Cohort (2023-2024), and co-led the Asset Pricing Cohort (2024-2025).
           - Designed and delivered a quarter long lecture series on an introduction to Python for economics research, covering Python basics, data manipulation and visualization, introduction to natural language processing, and web scraping.
             Made Jupyter notebook worksheets for students to practice Python programming.
-          - Gave lectures on mathematical prerequisites for the cohort and a behavioral economics solution to the equity premium puzzle.
+          - Gave lectures on mathematical prerequisites for the cohort and a behavioral economics resolution to the equity premium puzzle.
       - name: Online APA In-Text Citation Checker
         date: '[github repo](https://github.com/AdenChen27/APA7-in-text-citation-checker)'
         highlights:
