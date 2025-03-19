@@ -19,32 +19,39 @@ cv:
         highlights:
           - 'GPA: 3.962/4.0'
           - "Dean's List: 2023--2024"
-          - 'Coursework: Honors Elements of Economic Analysis, Statistical Theory and Methods, Accelerated Analysis in $$\mathbb{R}^n$$, Systems Programming, Abstract Linear Algebra, Introduction to Mathematical Probability'
+          - 'Coursework: Honors Econometrics (ongoing), Honors Elements of Economic Analysis I--III (ongoing), Accelerated Analysis in $$\mathbb{R}^n$$ I--III (ongoing), Statistical Theory and Methods Ia--IIa, Systems Programming II, Abstract Linear Algebra, Introduction to Mathematical Probability'
     Research:
       - company: Becker Friedman Institute
-        position: Research Assistant for Professor Shaoda Wang
+        position: Research Assistant for Professors Shaoda Wang and Daniel Li Chen
         # location: Chicago, IL
         start_date: 2024-04
         # end_date: 
         highlights:
-          - Developed pipeline for crawling legal documents in court cases involving expert witness. 
-            Downloaded over 3M relevant documents and metadata for over 1.5M cases.
-          - Developing pipeline for extracting key variables in court cases using various NLP techniques.
+          - Built a pipeline for crawling legal documents from court cases involving expert witnesses, collecting over 3M documents and metadata from 1.5M cases.
+          - Developed an extraction pipeline to identify key case variables, including outcomes, nature of suits, and expert witness affiliations.
       - company: Becker Friedman Institute; Harris School of Public Policy
         position: Research Assistant for the MiiE Lab
         # location: Chicago, IL
         start_date: 2024-06
         end_date: 2024-09
         highlights:
-          - Supported Professor Adukia in her work to analyze images and texts in textbooks, children’s books, and yearbooks using computational methods.
+          - Supported Professor Anjali Adukia in her work to analyze images and texts in textbooks, children’s books, and yearbooks using computational methods.
           - Crawled public yearbook images and ran computer vision pipelines to estimate demographic compositions.
           - Assisted in the development of a version of the Implicit Association Test using OpenSesame. 
-          - Ran various natural language processing algorithms on news articles, including VADER sentiment analysis, VAD analysis, log odds ratio with Dirichlet prior, power and agency analysis, topic modeling, word embedding, and zero shot classification.
+          - Analyzed news articles using various natural language processing techniques, including sentiment analysis, power and agency analysis, and topic modeling.
+      - company: UChicago Mathematics Directed Reading Program
+        position: Student Researcher
+        # location: Chicago, IL
+        start_date: 2025-01
+        end_date: present
+        highlights:
+          - Studied measure theory, probability, and stochastic processes. Presenting on the Kolmogorov's zero–one law.
+          # Presenting on a proof of the strong law of large numbers using the martingale convergence theorem and Kolmogorov's zero–one law.
       - company: UChicago Mathematics Research Experience for Undergraduates (REU)
         position: Apprentice Researcher
         # location: Chicago, IL
         start_date: 2024-06
-        end_date: 2024-08
+        end_date: 2024-09
         highlights:
           - Studied operator theory and authored an [expository paper](https://math.uchicago.edu/~may/REU2024/REUPapers/Chen,Aden.pdf) on spectral theory and the min-max theorem, which gives a variational characterization of the discrete eigenvalues of a self-adjoint operator below the essential spectrum. 
     # publications:
@@ -58,15 +65,14 @@ cv:
         # date: '[github.com/name/repo](https://github.com/rendercv/rendercv)'
         start_date: 2023-09
         highlights:
-          - Participated as a member in the Econometrics Cohort (2023-2024), and co-led the Asset Pricing Cohort (2024-2025).
-          - Designed and delivered a quarter long lecture series on an introduction to Python for economics research, covering Python basics, data manipulation and visualization, introduction to natural language processing, and web scraping.
-            Made Jupyter notebook worksheets for students to practice Python programming.
-          - Gave lectures on mathematical prerequisites for the cohort and a behavioral economics resolution to the equity premium puzzle.
-      - name: Online APA In-Text Citation Checker
-        date: '[github repo](https://github.com/AdenChen27/APA7-in-text-citation-checker)'
-        highlights:
-          - Designed and developed a [webpage](https://adenchen27.github.io/citation_checker/main.html) utilizing JavaScript and RegEx to check the format of APA7-styled in-text citations.
-      - name: Grader for MATH152 - Calculus 2
+          - Leader for the Asset Pricing Cohort (2024-2025); Member of the Econometrics Cohort (2023-2024).
+          - Designed and delivered a quarter-long lecture series on Python for economics research, covering fundamentals, data manipulation, visualization, regression analysis, causal inference, natural language processing, and web scraping. Created Jupyter notebook worksheets for hands-on Python practice. Presented lectures on mathematical prerequisites and a behavioral economics perspective on the equity premium puzzle.
+          # - Gave lectures on mathematical prerequisites for the cohort and a behavioral economics resolution to the equity premium puzzle.
+      # - name: Online APA In-Text Citation Checker
+      #   date: '[github repo](https://github.com/AdenChen27/APA7-in-text-citation-checker)'
+      #   highlights:
+      #     - Designed and developed a [webpage](https://adenchen27.github.io/citation_checker/main.html) utilizing JavaScript and RegEx to check the format of APA7-styled in-text citations.
+      - name: Grader for MATH15200 -- Calculus 2
         start_date: 2024-09
         end_date: 2024-12
       - name: ESL Learning Website
@@ -78,7 +84,7 @@ cv:
       - label: Languages
         details: Python, C++/C, R, JavaScript, HTML/CSS
       - label: Technologies
-        details: Git, NLTK, Jupyter, Midway, \LaTeX, Pandas, NumPy, Beautiful Soup, Selenium, SciPy, Django
+        details: Git, Jupyter, Midway, \LaTeX, Pandas, NumPy, Beautiful Soup, Selenium, SciPy, NLTK, Django
 design:
   theme: adenc
   font: Latin Modern Serif
