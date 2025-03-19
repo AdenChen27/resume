@@ -28,7 +28,7 @@ cv:
         # end_date: 
         highlights:
           - Built a pipeline for crawling legal documents from court cases involving expert witnesses, collecting over 3M documents and metadata from 1.5M cases.
-          - Developed an extraction pipeline to identify key case variables, including outcomes, nature of suits, and expert witness affiliations.
+          - Developed an extraction pipeline that uses large language models to identify key case variables, including outcomes, nature of suits, and expert witness affiliations.
       - company: Becker Friedman Institute; Harris School of Public Policy
         position: Research Assistant for the MiiE Lab
         # location: Chicago, IL
