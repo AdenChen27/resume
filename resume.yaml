@@ -17,7 +17,7 @@ cv:
         start_date: 2023-09
         end_date: 2027-05
         highlights:
-          - 'GPA: 3.962/4.0'
+          - 'GPA: 3.970/4.0'
           - "Dean's List: 2023--2024"
           - 'Coursework: Honors Econometrics (ongoing), Honors Elements of Economic Analysis I--III (ongoing), Accelerated Analysis in $$\mathbb{R}^n$$ I--III (ongoing), Statistical Theory and Methods Ia--IIa, Systems Programming II, Abstract Linear Algebra, Introduction to Mathematical Probability'
     Research:
@@ -45,7 +45,7 @@ cv:
         start_date: 2025-01
         end_date: present
         highlights:
-          - Studied measure theory, probability, and stochastic processes. Presenting on the Kolmogorov's zero–one law.
+          - Studied measure theory, probability, and stochastic processes. Presenting on Kolmogorov's zero–one law.
           # Presenting on a proof of the strong law of large numbers using the martingale convergence theorem and Kolmogorov's zero–one law.
       - company: UChicago Mathematics Research Experience for Undergraduates (REU)
         position: Apprentice Researcher
@@ -53,7 +53,7 @@ cv:
         start_date: 2024-06
         end_date: 2024-09
         highlights:
-          - Studied operator theory and authored an [expository paper](https://math.uchicago.edu/~may/REU2024/REUPapers/Chen,Aden.pdf) on spectral theory and the min-max theorem, which gives a variational characterization of the discrete eigenvalues of a self-adjoint operator below the essential spectrum. 
+          - Studied functional analysis and authored an [expository paper](https://math.uchicago.edu/~may/REU2024/REUPapers/Chen,Aden.pdf) on spectral theory and the min-max theorem, which gives a variational characterization of the discrete eigenvalues of a self-adjoint operator below the essential spectrum. 
     # publications:
     #   - title: Spectral Theory and the Min-Max Theorem
     #     authors:
