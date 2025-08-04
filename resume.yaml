@@ -18,16 +18,30 @@ cv:
         end_date: 2027-05
         highlights:
           - 'GPA: 3.975/4.0'
-          - "Dean's List: 2023--2024; Econometrics game 2025 qualifier; Winner in the Web Development track, Uncommon Hacks 2024"
-          - 'Coursework: Honors Econometrics (ongoing), Honors Elements of Economic Analysis I--III (ongoing), Accelerated Analysis in $$\mathbb{R}^n$$ I--III (ongoing), Statistical Theory and Methods Ia--IIa, Systems Programming II, Abstract Linear Algebra, Introduction to Mathematical Probability'
+          - "Dean's List: 2023--2024; Econometrics game 2025 Qualifier; Winner, Uncommon Hacks 2024, Web Development Track"
+          - 'Coursework: Honors Econometrics, Graduate Statistical Theory and Methods, Honors Economic Analysis, Accelerated Real Analysis, Systems Programming, Mathematical Probability'
     Research:
+      - company: Becker Friedman Institute
+        position: Research Assistant for Professors Anup Malani
+        # location: Chicago, IL
+        start_date: 2024-07
+        # end_date: 
+        highlights:
+          - Developing new methods to forecast global Completed Cohort Fertility Rate as an alternative to the Total Fertility Rate in predicting global population trends.
+      - company: UChicago Mathematics Research Experience for Undergraduates (REU)
+        position: Full Researcher
+        # location: Chicago, IL
+        start_date: 2025-06
+        # end_date: 2025-09
+        highlights:
+          - Studying Optimal Transport and in particular the geometry of Wasserstein spaces under the mentorship of Dr. Joe Jackson. Working on an expository paper on the Benamou-Brenier formula, which provides s dynamic characterization of the Wasserstein distance.
       - company: Becker Friedman Institute
         position: Research Assistant for Professors Shaoda Wang and Daniel Li Chen
         # location: Chicago, IL
         start_date: 2024-04
-        # end_date: 
+        end_date: 2024-06
         highlights:
-          - Built a pipeline for crawling legal documents from court cases involving expert witnesses, collecting over 3M documents and metadata from 1.5M cases.
+          - Crawled legal documents from court cases involving expert witnesses, collecting over 3M documents and metadata from 1.5M cases.
           - Developed an extraction pipeline that uses large language models to identify key case variables, including outcomes, nature of suits, and expert witness affiliations.
       - company: Becker Friedman Institute; Harris School of Public Policy
         position: Research Assistant for the MiiE Lab
@@ -36,16 +50,17 @@ cv:
         end_date: 2024-09
         highlights:
           - Supported Professor Anjali Adukia in her work to analyze images and texts in textbooks, children’s books, and yearbooks using computational methods.
-          - Crawled public yearbook images and ran computer vision pipelines to estimate demographic compositions.
+          # - Crawled public yearbook images and ran computer vision pipelines to estimate demographic compositions.
           - Assisted in the development of a version of the Implicit Association Test using OpenSesame. 
-          - Analyzed news articles using various natural language processing techniques, including sentiment analysis, power and agency analysis, and topic modeling.
+          - Analyzed news articles using various natural language processing techniques.
+          # , including sentiment analysis, power and agency analysis, and topic modeling.
       - company: UChicago Mathematics Directed Reading Program
         position: Student Researcher
         # location: Chicago, IL
         start_date: 2025-01
-        end_date: present
+        end_date: 2025-04
         highlights:
-          - Studied measure theory, probability, and stochastic processes. Presenting on Kolmogorov's zero–one law.
+          - Studied measure theory, probability, and stochastic processes. Gave a presentation on Kolmogorov's 0–1 law.
           # Presenting on a proof of the strong law of large numbers using the martingale convergence theorem and Kolmogorov's zero–one law.
       - company: UChicago Mathematics Research Experience for Undergraduates (REU)
         position: Apprentice Researcher
@@ -53,7 +68,7 @@ cv:
         start_date: 2024-06
         end_date: 2024-09
         highlights:
-          - Studied functional analysis and authored an [expository paper](https://math.uchicago.edu/~may/REU2024/REUPapers/Chen,Aden.pdf) on spectral theory and the min-max theorem, which gives a variational characterization of the discrete eigenvalues of a self-adjoint operator below the essential spectrum. 
+          - Studied functional analysis and authored an [expository paper](https://math.uchicago.edu/~may/REU2024/REUPapers/Chen,Aden.pdf) on spectral theory and the min-max theorem, which gives a variational characterization of the discrete eigenvalues of self-adjoint operators below the essential spectrum. 
     # publications:
     #   - title: Spectral Theory and the Min-Max Theorem
     #     authors:
@@ -66,25 +81,28 @@ cv:
         start_date: 2023-09
         highlights:
           - Leader for the Asset Pricing Cohort (2024-2025); Member of the Econometrics Cohort (2023-2024).
-          - Designed and delivered a quarter-long lecture series on Python for economics research, covering fundamentals, data manipulation, visualization, regression analysis, causal inference, natural language processing, and web scraping. Created Jupyter notebook worksheets for hands-on Python practice. Presented lectures on mathematical prerequisites and a behavioral economics perspective on the equity premium puzzle.
+          - Designed and delivered a quarter-long lecture series on Python for economics research.
+          # covering data manipulation, visualization, regression analysis, causal inference, NLP, and web scraping. Created Jupyter notebook worksheets for hands-on Python practice.
+          # Presented lectures on mathematical prerequisites and a behavioral economics perspective on the equity premium puzzle.
           # - Gave lectures on mathematical prerequisites for the cohort and a behavioral economics resolution to the equity premium puzzle.
       # - name: Online APA In-Text Citation Checker
       #   date: '[github repo](https://github.com/AdenChen27/APA7-in-text-citation-checker)'
       #   highlights:
       #     - Designed and developed a [webpage](https://adenchen27.github.io/citation_checker/main.html) utilizing JavaScript and RegEx to check the format of APA7-styled in-text citations.
-      - name: Grader for MATH15200 -- Calculus 2
-        start_date: 2024-09
-        end_date: 2024-12
-      - name: ESL Learning Website
-        date: '[github repo](https://github.com/AdenChen27/Project_0)'
-        highlights:
-          - Developed a Django-based website for interactive ESL learning.
-          - Recognized as a finalist in the Rise Global Challenge by Schmidt Futures and the Rhodes Trust.
+      # - name: Grader for MATH15200 -- Calculus 2
+        # start_date: 2024-09
+        # end_date: 2024-12
+      # - name: ESL Learning Website
+      #   date: '[github repo](https://github.com/AdenChen27/Project_0)'
+      #   highlights:
+      #     - Developed a Django-based website for interactive ESL learning.
+      #     - Recognized as a finalist in the Rise Global Challenge by Schmidt Futures and the Rhodes Trust.
     skills:
       - label: Languages
         details: Python, C++/C, R, JavaScript, HTML/CSS
       - label: Technologies
-        details: Git, Jupyter, Midway, \LaTeX, Pandas, NumPy, Beautiful Soup, Selenium, SciPy, NLTK, Django
+        details: Git, Nix, Jupyter, \LaTeX, Pandas, NumPy, Beautiful Soup, Selenium, SciPy, NLTK, Django
+
 design:
   theme: adenc
   font: Latin Modern Serif
